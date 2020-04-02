@@ -24,7 +24,7 @@ public class StudentDaoImpl implements StudentDao {
 	}
 
 	@Override
-	public List<Student> findByName() {
+	public List<Student> findByName(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}

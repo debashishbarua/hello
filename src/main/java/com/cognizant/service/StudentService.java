@@ -8,7 +8,7 @@ public interface StudentService {
 
 	public List<Student> findAll();
 	
-	public List<Student> findByName();
+	public List<Student> findByName(String name);
 
 	public int create(Student student);
 
