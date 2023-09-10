@@ -1,0 +1,14 @@
+pipeline {
+  agent any
+  tools {
+    maven 'M3' 
+  }
+  stages {
+    stage ('Build') {
+      steps {
+      	cd hello
+        bat 'mvn clean package'
+      }
+    }
+  }
+}
